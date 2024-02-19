@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    -webkit-user-drag: none;
+}
+
+.judul {
+    color: rgb(216, 216, 216);
+    font-size: 2em;
+    margin-left: 20px;
+}
+
+.box:hover {
+    /* transform: scale(1); */
+    background-color: rgb(99, 126, 184);
+}
+
+.nav-kecil {
+    color: rgb(216, 216, 216);
+    margin-left: 20px;
+}
+
+nav {
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 6px;
+}
+
+.heading {
+    /* padding-top: 20px; */
+    padding-bottom: 10px;
+}
+
+.catagories .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 1.5rem;
+}
+
+.catagories .box-container .box {
+    padding: 2rem 1rem;
+    background-color: #ecf0f1;
+    outline: .1rem solid rgba(0, 0, 0, .1);
+    outline-offset: -1rem;
+    text-align: center;
+    box-shadow: 0 .5rem 1rem rgba(28, 83, 135, 0.1);
+}
+
+.catagories .box-container .box:hover {
+    outline: .1rem solid rgb(24, 39, 71);
+    outline-offset: 0rem;
+}
+
+.catagories .box-container .box img {
+    margin: 1rem 0;
+    height: 10rem;
+}
+
+.catagories .box-container .box h3 {
+    font-size: 1.5rem;
+    color: #000;
+    line-height: 1.5;
+}
+
+.catagories .box-container .box p {
+    font-size: 1.5rem;
+    color: rgb(102, 102, 102);
+    line-height: 1.5;
+    padding: 1rem 0;
+}
+
+.fa-brands {
+    margin-bottom: 2rem;
+    color: white;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
